@@ -16,20 +16,21 @@ Develop bicycle-sharing prediction models
 
 ## Conclusion
 
+The final model for predicting bicycle demand is based on Gradient Boosting. The 'adjusted R2' metric of the test data is 0.898. To select the hyperparameters of the model, the HoperOpt method was used; on these data, the model reaches a ceiling of  'adjusted R2' metrics, so in the following steps: try to train the neural network for more accurate predictions.
 
 ## Further development
 
 Train a neural network to predict demand for bicycles
 ## Skills and tools 
 
-* Data analysis
+* Data preprocessing
+* EDA
 * Python
 * Pandas
-* NumPy
 * Matplotlib
 * Scikit-learn
 * HyperOpt
   
-
 ## Project status
 - [x] Prediction Model Completed
+- [ ] Deep Learning Model 
